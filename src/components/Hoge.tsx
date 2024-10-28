@@ -7,5 +7,9 @@ export default function Hoge({ name }: { name: string }) {
     console.log(name)
   }, [])
 
-  return <div>Hoge</div>
+  return (
+    <div>
+      <img src="/images/hoge.png" alt="hoge" />
+    </div>
+  )
 }
