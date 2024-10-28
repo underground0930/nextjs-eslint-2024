@@ -10,7 +10,7 @@ export default function Hoge({ name }: { name: string }) {
   }, [])
 
   return (
-    <div>
+    <div className="flex items-center justify-center text-wrap">
       <img src="/images/hoge.png" alt="hoge" />
     </div>
   )
