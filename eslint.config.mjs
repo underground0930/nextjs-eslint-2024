@@ -26,12 +26,12 @@ const config = [
     ],
   },
   {
-    name: 'eslint/recommended',
+    name: 'eslint/recommended', // eslintの設定
     rules: js.configs.recommended.rules,
   },
   ...tseslint.configs.recommended,
   {
-    name: 'eslint-plugin-react',
+    name: 'eslint-plugin-react', // reactの設定
     plugins: {
       react: reactPlugin,
     },
@@ -43,14 +43,14 @@ const config = [
     },
   },
   {
-    name: 'eslint-plugin-react-hooks',
+    name: 'eslint-plugin-react-hooks', // react-hooksの設定
     plugins: {
       'react-hooks': hooksPlugin,
     },
     rules: hooksPlugin.configs.recommended.rules,
   },
   {
-    name: 'eslint-plugin-next',
+    name: 'eslint-plugin-next', // nextの設定
     plugins: {
       '@next/next': nextPlugin,
     },
@@ -60,7 +60,7 @@ const config = [
     },
   },
   {
-    name: 'eslint-config-prettier',
+    name: 'eslint-config-prettier', // prettierの設定
     ...eslintConfigPrettier,
   },
   {
