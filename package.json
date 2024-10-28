@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "inspect": "npx eslint --inspect-config"
   },
   "dependencies": {
     "next": "15.0.1",
