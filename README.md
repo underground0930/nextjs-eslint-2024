@@ -2,4 +2,4 @@
 
 ## 解説記事
 
-wip
+https://zenn.dev/resistance_gowy/articles/16828fa82a49ac
