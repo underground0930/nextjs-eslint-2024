@@ -26,12 +26,12 @@ const config = [
     ],
   },
   {
-    name: 'eslint/recommended', // eslintの設定
+    name: 'eslint/recommended',
     rules: js.configs.recommended.rules,
   },
   ...tseslint.configs.recommended,
   {
-    name: 'eslint-plugin-react', // reactの設定
+    name: 'react/jsx-runtime',
     plugins: {
       react: reactPlugin,
     },
@@ -43,14 +43,14 @@ const config = [
     },
   },
   {
-    name: 'eslint-plugin-react-hooks', // react-hooksの設定
+    name: 'react-hooks/recommended',
     plugins: {
       'react-hooks': hooksPlugin,
     },
     rules: hooksPlugin.configs.recommended.rules,
   },
   {
-    name: 'eslint-plugin-next', // nextの設定
+    name: 'next/core-web-vitals',
     plugins: {
       '@next/next': nextPlugin,
     },
@@ -60,11 +60,11 @@ const config = [
     },
   },
   {
-    name: 'eslint-config-prettier', // prettierの設定
+    name: 'prettier/config',
     ...eslintConfigPrettier,
   },
   {
-    name: 'eslint-custom', // カスタムルールを追加
+    name: 'project-custom',
     rules: {
       '@typescript-eslint/no-unused-vars': 1,
     },
