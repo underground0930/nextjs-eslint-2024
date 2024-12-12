@@ -11,12 +11,6 @@ const config = [
   },
   {
     ignores: [
-      '**/eslint.config.mjs',
-      '**/prettier.config.js',
-      '**/next.config.mjs',
-      '**/tailwind.config.js',
-      '**/tsconfig.json',
-      '**/postcss.config.mjs',
       '**/next-env.d.ts',
       '**/build/',
       '**/bin/',
